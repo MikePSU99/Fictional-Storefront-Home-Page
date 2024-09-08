@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Caffeine Corner</title>
+    <link rel="stylesheet" href="Untitled-1.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="Logo.png" alt=" ">
+        <h1>Welcome to Caffeine Corner</h1>
+    </header>
+
+    <!-- Nav -->
+    <nav>
+        <ul>
+            <li><a href=" ">Home</a></li>
+            <li><a href=" ">About Us</a></li>
+            <li><a href=" ">Shopping Cart</a></li>
+            <li><a href=" ">Products</a></li>
+            <li><a href=" ">Login</a></li>
+            <li><a href=" ">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Div for main content -->
+    <div class="main">
+        <!-- Section -->
+        <section>
+            <!-- Article -->
+            <article>
+                <h2>Current Sales</h2>
+                <p>Here are some of our top-selling coffee roasts on sale right now!</p>
+                <div>
+                    <img src="LightRoast.jpg" alt="Light Roast Coffee">
+                    <p>Light Roast Coffee</p>
+                </div>
+                <div>
+                    <img src="MediumRoast.jpg" alt="Medium Roast Coffee">
+                    <p>Medium Roast Coffee</p>
+                </div>
+                <div>
+                    <img src="DarkRoast.jpg" alt="Dark Roast Coffee">
+                    <p>Dark Roast Coffee</p>
+                </div>
+                
+            </article>
+        </section>
+
+        <!-- Aside -->
+        <aside>
+            <h2>Special Offers</h2>
+            <p>Check out our latest discounts and promotions!</p>
+            <img src="Mug.jpg" alt="Coffee Mug">
+            <p>Buy our Coffee Mug!</p>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <ul>
+            <li><a href=" ">Terms of Use</a></li>
+            <li><a href=" ">Cookie and Privacy Policy</a></li>
+            <li><a href=" ">Copyright</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
