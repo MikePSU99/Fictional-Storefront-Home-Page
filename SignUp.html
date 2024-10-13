@@ -22,23 +22,39 @@
             <li><a href=" ">About Us</a></li>
             <li><a href=" ">Shopping Cart</a></li>
             <li><a href=" ">Products</a></li>
-            <li><a href="SignUp.html">Login</a></li>
+            <li><a href="SignUp.html">Sign Up</a></li>
             <li><a href=" ">Contact Us</a></li>
         </ul>
     </nav>
 
     <!-- Div for main content -->
     <div class="main_form">
-        <form class="form-inline">
-            <h2>User Signup</h2>
-            <p>Username:</p>
-            <input class="form-control" type="text">
-            <p>Email:</p>
-            <input class="form-control" type="email">
-            <p>Password:</p>
-            <input class="form-control" type="password">
-            <p>Confirm Password:</p>
-            <input class="form-control" type="password">
+        <form class="form-inline" onsubmit="validateForm(event)">
+        <h2>User Signup</h2>
+
+            <p>
+                <label for="name">Name:</label>
+                <input id="name" class="form-control" type="text" required>
+                <span id="name-error"></span>
+            </p>
+
+            <p>
+                <label for="email">Email:</label>
+                <input id="email" class="form-control" type="email" required>
+                <span id="email-error"></span>
+            </p>
+
+            <p>
+                <label for="password">Password:</label>
+                <input id="password" class="form-control" type="password" required>
+                <span id="password-error"></span>
+            </p>
+
+            <p>
+                <label for="confirm_password">Confirm Password:</label>
+                <input id="confirm_password" class="form-control" type="password" required>
+                <span id="confirm_password-error"></span>
+            </p>
             <button type="submit" class="btn btn-secondary">Submit</button>
         </form>
     </div>
@@ -51,5 +67,8 @@
             <li><a href=" ">Copyright</a></li>
         </ul>
     </footer>
+
+    <script src="Script.js"></script>
+
 </body>
 </html>

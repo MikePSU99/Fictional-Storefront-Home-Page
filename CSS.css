@@ -54,7 +54,7 @@ nav a{
 
 .main form p{
   justify-content: space-between;
-  margin: 0px;
+  margin: 0;
   padding: 10px;
 }
 
@@ -116,5 +116,18 @@ footer a{
   color: white;
   text-decoration: none;
 }
+
+/**
+Style for field validation
+*/
+.form-control:focus {
+  border-color: red;
+  border-width: 2px;
+}
+
+.form-control:valid {
+  border-color: green;
+}
+
 
 
