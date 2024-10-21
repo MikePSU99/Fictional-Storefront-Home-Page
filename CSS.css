@@ -117,17 +117,16 @@ footer a{
   text-decoration: none;
 }
 
-/**
-Style for field validation
-*/
-.form-control:focus {
-  border-color: red;
-  border-width: 2px;
-}
-
-.form-control:valid {
+/** Validation Styles **/
+.valid-input {
   border-color: green;
 }
+
+.invalid-input {
+  border-color: red;
+}
+
+
 
 
 
